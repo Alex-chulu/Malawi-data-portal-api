@@ -194,4 +194,3 @@ Email: chulualexandar@gmail.com
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 We hope you find the Malawi Data Portal API useful for your projects or research. Happy coding!
-```
