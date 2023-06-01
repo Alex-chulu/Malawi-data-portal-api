@@ -38,7 +38,5 @@ def get_cities():
 # Return city by id
 @cities_bp.route('/cities/<int:id>', methods=['GET'])
 def get_city(id):
-    for city in cities:
-        if city['id'] == id:
-            return jsonify(city)
-        return jsonify({'message': 'city ' + str(id) + ' not found'})
+    city = [city for city in cities if city['id'] == id]
+    return jsonify({'city': city})
