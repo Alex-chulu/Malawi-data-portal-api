@@ -6,7 +6,7 @@
   align-items: center;
   font-size: var(--bs-icon-size);
   width: calc(var(--bs-icon-size) * 2);
-  height: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 3);
   color: var(--bs-primary);
 }
 
@@ -53,4 +53,8 @@
 
 .bs-icon.bs-icon-circle {
   border-radius: 50%;
+}
+.navbar{
+  border-radius: 1px;
+  border-bottom: solid 1px rgba(255, 255, 255, .5);
 }

@@ -1,0 +1,33 @@
+.image{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-border{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.historical{
+    width: 100%;
+    height: 400px;
+}
+.card-group{
+    padding-left: 9%;
+    padding-right: 10%;
+}
+.about{
+    padding-left: 9%;
+    padding-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.path{
+    color: blue;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
