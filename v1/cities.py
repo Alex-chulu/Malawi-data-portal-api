@@ -15,7 +15,7 @@ cities = [
 # The class will return all cities availeble in the list
 class Cities(Resource):
     def get(self):
-        return jsonify(cities)
+        return jsonify({'cities': cities})
     
     # Create a POST method to add new entries to the list
     def post(self):
