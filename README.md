@@ -1,3 +1,5 @@
+![historical_places](https://github.com/Alex-chulu/Malawi-data-portal-api/assets/72263272/b0cc02b5-f543-45ba-86dd-587c681fbc30)
+
 # Malawi Data Portal API
 
 The Malawi Data Portal API provides access to various data sets about Malawi, 
@@ -15,6 +17,8 @@ For API use in production please contact the developer of the API`
 The following endpoints are available in the Malawi Data Portal API:
 
 ### 1. Total Population
+![Population](https://github.com/Alex-chulu/Malawi-data-portal-api/assets/72263272/606b5c7a-807f-42ad-9a4a-dd17a18b2173)
+
 
 - Endpoint: `/population`
 - Method: GET
@@ -45,6 +49,8 @@ The following endpoints are available in the Malawi Data Portal API:
   ```
 
 ### 3. Major Cities
+![Cities](https://github.com/Alex-chulu/Malawi-data-portal-api/assets/72263272/5b240bbf-f410-470f-bd4d-049f2e0d1b6f)
+
 
 - Endpoint: `/cities`
 - Method: GET
