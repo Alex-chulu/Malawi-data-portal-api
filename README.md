@@ -1,5 +1,6 @@
 ![historical_places](https://github.com/Alex-chulu/Malawi-data-portal-api/assets/72263272/b0cc02b5-f543-45ba-86dd-587c681fbc30)
 
+For a project landing page, here is the link https://alex-chulu.github.io/Malawi-data-portal-api/
 # Malawi Data Portal API
 
 The Malawi Data Portal API provides access to various data sets about Malawi, 
