@@ -8,6 +8,15 @@ including information on the total population, regions, major cities, districts,
 historical places, hospitals, schools, and villages. This API allows developers to 
 retrieve and utilize the data for their applications or research purposes.
 
+Growing up in Malawi, I witnessed firsthand the challenges faced due to limited access 
+to organized and reliable data. This inspired me to develop the Malawi Data Portal API, 
+a platform that provides easy access to crucial data about Malawi.
+
+I realized that access to comprehensive and up-to-date data is essential for informed decision-making
+in various sectors such as healthcare, education, and urban planning. This project aims to bridge the 
+data gap and empower individuals and organizations with the information they need to make impactful decisions.
+
+
 ## Base URL
 
 The base URL for the API is: `https://api.malawidataportal.com` `This is a test url and not used in production. 
