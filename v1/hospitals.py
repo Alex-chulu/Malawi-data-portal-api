@@ -1,3 +1,14 @@
+"""_summary_
+This is the hospitals file
+The hospitals file contains the following:
+    - Import the Flask class and other modules
+    - Flask app
+    - Blueprints
+
+    Returns:
+        _type_: _description_
+"""
+
 from flask import Blueprint, jsonify
 from flask_restful import Resource, Api, reqparse
 

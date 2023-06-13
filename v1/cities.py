@@ -1,9 +1,21 @@
+"""_summary_
+This is the cities file
+The cities file contains the following:
+    - Import the Flask class and other modules
+    - Flask app
+    - Blueprints
+
+    Returns:
+        _type_: _description_
+"""
 from flask import Blueprint, jsonify
 from flask_restful import Resource, Api, reqparse
 
 cities_bp = Blueprint('cities', __name__)
 api = Api(cities_bp)
 
+
+# Create a list of cities 
 cities = [
     {"id": 0, "name": "Lilongwe", "population": 989748, "region": "Central", "latitude": "-13.983333", "longitude": "33.783333"},
     {"id": 1, "name": "Blantyre", "population": 789498, "region": "Southern", "latitude": "-15.783333", "longitude": "35.000000"},

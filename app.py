@@ -1,3 +1,11 @@
+"""_summary_
+This is the main file running the entire application
+The main file contains the following:
+    - Import the Flask class and other modules
+    - Flask app
+    - Blueprints
+    - Run the app
+"""
 from flask import Flask
 from v1.population import population_bp
 from v1.districts import districts_bp

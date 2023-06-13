@@ -1,3 +1,14 @@
+"""_summary_
+This is a district file that contains information about the district
+The district file contains the following:
+    - Import the Flask class and other modules
+    - Flask app
+    - Blueprints
+    - Districts dictionary
+
+    Returns:
+        _type_: _description_
+"""
 from flask import Blueprint, jsonify
 from flask_restful import Resource, Api, reqparse
 

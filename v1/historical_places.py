@@ -1,9 +1,22 @@
+"""_summary_
+This is a historical places file that contains information about the historical places
+The historical places file contains the following:
+    - Import the Flask class and other modules
+    - Flask app
+    - Blueprints
+    - Historical places list
+
+    Returns:
+        _type_: _description_
+"""
 from flask import Blueprint, jsonify 
 from flask_restful import Resource, Api, reqparse
 
 historical_places_bp = Blueprint('historical_places', __name__)
 api = Api(historical_places_bp)
 
+
+# Create a list of historical places
 historical_places = [
         {
             "id": 0,
